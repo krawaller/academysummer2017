@@ -1,0 +1,23 @@
+<
+Familj				
+  Gunnar(78,Man)			        
+    Åsa(48,Kvinna)				        
+      Rutger(20,Man)
+    Birger(35,Man)
+    Sara(33,Kvinna)
+      Calle(2,Man)>
+ 
+
+
+
+
+
+
+
+
+<
+Familj
+  Namn(ålder,kön) 
+    Namn(ålder,kön)>
+     
+   
