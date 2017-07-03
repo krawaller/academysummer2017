@@ -74,6 +74,7 @@ nav ul form button {
   margin-right: auto;
   display: block;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 table {
@@ -82,7 +83,9 @@ table {
 }
 
 table {
-  border: solid gray;
+  border: #57a581;
+  background-color: #00A3AF;
+  border-radius: 5px;
 }
 table, tr {
   width: 50%;
