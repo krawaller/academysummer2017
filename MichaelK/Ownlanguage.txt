@@ -1,0 +1,4 @@
+object: #Zombie#
+type: #Zombie<level1>|<fast>#
+attribut: #Zombie<level1>+10hp+|+20attack+>#
+child :#Zombie<level1>+10hp+>~explode~#
