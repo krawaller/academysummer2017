@@ -1,0 +1,8 @@
+Encapsulate objects: starts with ! and ends with !
+Object type !Mamma!
+Express attributes with ( ) and : to separate :
+Children " " to separate children use ,
+
+
+Example:
+!Mamma(age:45)"!Son(age:20)!, !Daughter(age:18)!"!
