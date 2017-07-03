@@ -1,0 +1,37 @@
+My language
+An object starts and ends with * * and has to start with a capital, where we can define the object.
+The object contains types.
+Example:
+*Grandpa* *Grandmother*
+
+The type can have infint of attributes these start inside ( and ends with).
+These description can have values, inside "" the value is put, inside "" no rules are used. If there are no "" value will automaticly be null.
+They are seperated with +.
+For readabilty enter is used. 
+Example
+*Grandpa
+(Age"90" + Address"Blueberry street 15" + Hairstyle)
+*
+
+Each attribute can have children who defined by {}, if there are several children they are seperated by &.
+*Grandpa
+(Age"90" + Address"Blueberry street 15" + Hairstyle)
+	{
+	*Son
+	(Age"65" + Address"Norton street 658" + IQ"58" + Work)
+		{
+		*Grandson
+		(Age"40" + Address"Symphony street 8" + Education"Master of Sience")
+		*
+		}	
+	*&
+	*Daughter
+	(Age"62" + Address"Cymbalic street 98" + Work)
+		{
+		*Granddaughter
+		(Age"38" + Address"Lyer street 87")
+		*
+		}
+	*
+*
+	
