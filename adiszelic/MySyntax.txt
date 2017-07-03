@@ -1,0 +1,15 @@
+[grandpa(gender:M)(children:4)] {
+[Father(gender:M)(children:2)], [Mother(gender:F)(children:2)];
+}
+
+[Object]
+
+(Type)
+
+:Value:
+
+{Block}
+
+
+
+
