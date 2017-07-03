@@ -1,0 +1,12 @@
+Sebastian
+
+Html: 4
+CSS: 3
+JS: 2
+WC: 10
+
+Något mer att tillägga?
+Nja... tänker att det räcker så här!
+Har tydligen mer programmeringskunskaper än vad jag kom ihåg.
+Jag har jobbat med actionscript, flash, C++, html, php, MySQL, pic, kortläsare.
+Gjorde några riktigt sköna projekt på KTH när jag gick datateknik där 2000-2003.
