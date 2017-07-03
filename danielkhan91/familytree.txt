@@ -1,0 +1,13 @@
+|grandmother!age:85!?|Mother!age:50!,?|Me!age:26!|,|Sister!age:20!||,?|aunt!age:55!|?|cousin!age:27!||
+
+grandmoter = typ
+mother = children
+aunt = children
+me = childrens child
+sister = children child
+cousin = children child
+
+
+? = new child
+| = open and close type
+! = open and close attributes
