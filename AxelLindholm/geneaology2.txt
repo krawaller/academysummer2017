@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<Grandma name='Inga' age='84' zodiacSign='Taurus' favoriteBand='Rammstein'>
+	<Dad name='Anders' age='58' zodiacSign='Capricorn' favoriteBand='Motoerhead'>
+		<Son name='Axel' age='26' zodiacSign='Taurus' favoriteBand='Foofighters'></Son>
+		<Son name='Ludvig' age='24' zodiacSign='Taurus' favoriteBand='SystemOfaDown'></Son>
+	</Dad>
+</Grandma>
