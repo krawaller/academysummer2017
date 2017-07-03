@@ -1,0 +1,21 @@
+Divider for objects;
+# #
+
+Object type within divider;
+#sci-fi# #crime# #mindfuck#
+
+Attributes;
+within ## after type with -, new - between every attribute
+Value: and then the value
+No Value; ::
+
+Children get named after parent object type + *;
+#sci-fi#*#adventure#
+
+#apple-tastiness:7-ease:8-forbidden::#
+
+#MajBrittAngenberg-age:74-birthday:may25#
+#MajBrittAngenberg#*#ElisabetAngenberg-age:56-birthday:december11#
+#MajBrittAngenberg#*#ElisabetAngenberg#*#JeanetteNorin-age:29-birthday:october24#
+#MajBrittAngenberg#*#ElisabetAngenberg#*#ThereseAngenberg-age:27-birthday:july26#
+#MajBrittAngenberg#*#ElisabetAngenberg#*#CarolineAngenberg-age:25-birthday:august2#
