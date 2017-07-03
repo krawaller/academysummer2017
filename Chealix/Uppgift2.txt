@@ -1,0 +1,6 @@
+{basket(price-15)} {apple(price-8)} {banana(price-9)}
+
+
+{ = objekt
+( = attribut
+- = används attributets värde
