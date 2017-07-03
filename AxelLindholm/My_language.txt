@@ -1,0 +1,14 @@
+My language
+
+[type[subtype1], [subtype2].., [subtype3]]
+
+{attribute:quantity} // if quantifiable
+{"attribute"} // String
+
+[type {"attribute1", attribute2:quantity,"attribute3"...}[subtype1 {"attributeOne", attributeTwo:quantity...}],[subtype2....]]
+
+[Grandma{"Inga",age:84,"Taurus","Rammstein"}
+	 [Dad{"Anders", 58,"Capricorn","Motörhead"}
+		[Son{"Axel",age:26,"Taurus","FooFighters"][Son{"Ludvig",age:24,"Taurus","SystemOfADown"]
+
+
