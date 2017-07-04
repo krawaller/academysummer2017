@@ -1,0 +1,19 @@
+Farkhod's programming language. 
+Designed with love in Stockholm. 
+
+== Guidelines for F++ programming language == 
+
+{ } - encoding an object 
+example: {iPhone} {Samsung} {Sony} 
+
+<> attributes are written inside diamond brackets with values
+example: {Iphone<Model:4, OS:IOS:4, updatable>} 
+
+
+
+{Phone<name: Phones, pd: 2016>, ({Iphones<Model:4, OS:IOS:4, updatable>}, {Samsung<Model:S6, OS: Android, updatable>})}
+
+{grandpa<name:grandpa>, ({dad<name:dad>,({me<name:me>})},{auntie<name:auntie>, ({cousin<name:cousin>})})}
+
+
+
