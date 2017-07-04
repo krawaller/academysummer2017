@@ -1,0 +1,8 @@
+Inkapsla ett obejekt, typ innanför # - #obejkt här#
+
+Attribute inkaplas med + och separeras med . och lägg values med : - #objekt+hihi:3.haha:10.etc+#
+
+Barn till objekt inkaplas med ¤ och separeras med . - #object+attribute:4.attribute2:10+¤#barn+atttribute+#.#barn+attribute:4+#¤#
+
+Famliljeträd:
+#Mormor+namn:sara+¤#Mamma+namn:joanna+#¤#Son+namn:timon+#.Son#+namn:paris+#.#Dotter+namn:dafni+#¤.#Morbror+namn:adam+#¤#
