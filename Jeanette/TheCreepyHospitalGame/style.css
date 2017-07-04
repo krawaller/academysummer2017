@@ -52,10 +52,13 @@ h2 {
 .maincontent {
   background-color: black;
   opacity: 0.8;
-  padding: 10px;
   display: none;
-  margin: 20px 20% 0px 20%;
+
   padding: 5px 10% 15px 10%;
+  position: fixed;
+  top: 60%;
+  left: 35%;
+  z-index: 20;
 }
 
 ul li a {
@@ -86,6 +89,8 @@ ul {
   background-image: url(background.jpg);
   background-repeat: no-repeat;
   background-size: contain;
+  width: 100%;
+  background-size: 1800px;
 }
 
 #page4 {
@@ -111,12 +116,28 @@ ul {
 }
 
 .container {
-  padding: 10%;
   height: 700px;
 }
 
 .hiddenimage {
-  background-image: url(creepygirl.jpg);
+  background-image: url(creepygirl2.jpg);
+  background-repeat: no-repeat;
   display: none;
-  height: 300px;
+  position: relative;
+
+  height: 500px;
+  padding-left: 20%;
+  margin: 20px 20% 0px 30%;
 }
+
+/*p:first-child:first-letter {
+  color: #c10f27;
+  float: left;
+  font-family: Georgia;
+  font-size: 45px;
+  line-height: 30px;
+  padding-top: 5px;
+  padding-right: 4px;
+  padding-left: 2px;
+}
+*/
