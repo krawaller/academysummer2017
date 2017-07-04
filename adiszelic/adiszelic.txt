@@ -1,0 +1,4 @@
+HTML 2
+CSS 2
+JS 3
+Webtech curisority 9
