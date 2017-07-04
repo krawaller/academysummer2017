@@ -1,0 +1,6 @@
+{Grandpa/kön:M/,/ålder:90/{Gunnar/kön:M/,/ålder:60/}, {Monika/kön:K/,/ålder:65/}}
+
+{} används för att markera objekt
+// för att markera vilken attribut
+, används för separera
+typen kommer direkt efter curly brackets
