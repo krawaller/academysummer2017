@@ -1,0 +1,34 @@
+För att skapa ett objekt så behöver du skriva kapsla in det inom hakparanteser {}
+
+Sedan behöver du skriva vad det är för typ utav objekt (t.ex. apple eller wheelchair)
+
+Exempel: {pineapple}
+
+{ } betyder att detta är ett objekt och "pineapple" är objektets typ
+
+
+
+Varje objekt kan också ha olika attribut (t.ex. color, size, tastieness)
+
+För att ge en objekt ett attribut så använder man # följt av "attributet" följt av "=" samt "värdet".
+
+Exempel: {pineapple#color=brown}
+
+
+
+För att avsluta ett attribut så kan man antingen:
+Skriva # för ett nytt attribut
+Skriva < för att påbörja en underkategori
+Skriva } för att markera att inga fler attribut ska användas
+
+
+Exempel: {pineapple#color=brown#size=large#tastieness=10}
+
+Barn/underkategorier till objektet markeras och skrivs inom <>
+
+Exempel: {pineapple#color=brown#size=large<{firstBite#size=small#tastieness=8}{secondBite#size=small#tastieness=8}>}
+
+
+Släktträd (utgår från pappa):
+
+{Father#size=extraLarge#kindness=8<{Linnea#size=medium#kindness=6}{David#size=small#kindness=7}{Erik#size=large#kindness=4<{Måns#size=small#kindness=9}>}>}
