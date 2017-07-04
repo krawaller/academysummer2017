@@ -1,0 +1,12 @@
+Language Design
+
+Använda [ ] för att se vart beskrivningen börjar och slutar.
+Express ojbect type: [dad]
+Lista attributer innanför * och *
+Använda - för att separera attribut och värde (value).
+Använda ( ) där man kan lägga in barn till objektet.
+Använd & för att separera barnen
+
+
+Exempel:
+[dad*age-56*([me*age-23*]&[sister*age-10*]&[brother*age-8*])]
