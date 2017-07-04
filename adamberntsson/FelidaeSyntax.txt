@@ -1,0 +1,34 @@
+[Felidae]{Name, Age, Color, Diet}
+  |
+  |------[Panthera]
+  |           |
+  |           |-------[Tiger]
+  |           |
+  |           |-------[Leopard]
+  |           |
+  |           |-------[Lion]
+  |           |
+  |           |-------[Jaguar]
+  |
+  |------[Leopardis]
+            |    |
+            |    |
+            |  [Lynx]---------[Puma]
+            |    |   \
+            |    |    \
+            |    |     \
+            |    |      \
+            | [Bobcat]   \
+            |             \
+        [Ocelot]        [Felis]
+                           |
+                           |-------[Jungle Cat]
+                           |
+                           |-------[African Wild Cat]
+                           |
+                           |-------[European Wild Cat]
+                           |
+                           |-------[Domestic Cat]
+                                         |
+                                         |
+                                 [Balthazar;3;White;Carnivorous]
