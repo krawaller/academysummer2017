@@ -1,0 +1,38 @@
+body {
+	font.family: Arial;
+	font-size: 14px;
+	color: darkgreen;
+  margin-left: 400px;
+  margin-right: 400px;
+  border-style: double;
+  border-width: 5px;
+  padding-left: 150px;
+  padding-right: 150px;
+
+}
+h1 {
+  font-family: "Century Gothic", Times, serif;
+	font-size: 2em;
+	color: Purple;
+}
+h2 {
+  font-family: "Century Gothic", Times, serif;
+	font-size: 1.5em;
+  color: Purple;
+}
+a {
+    color: navy;
+}
+strong {
+	font-style: italic;
+	text-transform: uppercase;
+}
+p {
+  font-family: "Book Antiqua", Times, serif;
+	line-height: 1.5;
+	text-align: left;
+}
+img    {
+  height: 90%;
+  width: 90%;
+}
