@@ -1,0 +1,52 @@
+img{
+    height: 50%auto;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.endOfGame {
+    background-image: url("img/galaxy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     color: white;
+}
+
+.page2{
+  background-image: url("img/Sunrise.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   color: white;
+}
+.page3{
+  background-image: url("img/horseLand.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.page1{
+  background-image: url("img/nuclearBomb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+
+}
+
+p span{
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color:black;
+    opacity:0.8;
+    color: white;
+
+}
+
+li span{
+  background-color:black;
+  font-size: 20px;
+  opacity:0.8;
+  color: white;
+
+
+}
