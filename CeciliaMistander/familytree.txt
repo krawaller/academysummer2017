@@ -1,0 +1,8 @@
+Object: $object$
+Type: %type%
+Attributes without and with value: |attribute|.|attribute_1|
+Children: ^child^
+
+Ex. $%horse%|brown|.|age_2|^$%foul%|black|.|age_1|$^$
+
+$%mormor%|gerd|.|age_93|^$%mamma%|christina|.|age_63|^$%jag%|cecilia|.|age_28|$^$^$
