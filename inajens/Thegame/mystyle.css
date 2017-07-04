@@ -7,11 +7,12 @@ h1 {
 	text-transform: Uppercase;
 	font-size: 72px;
 	color: white;
-	text-shadow: 1px 1px 2px black; 
+	text-shadow: 2px 2px 16px black; 
 }
 
 p {
 	color: white;
+	line-height: 25px;
 }
 
 body {
