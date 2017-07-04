@@ -21,12 +21,19 @@ body {
 }
 
 .header {
-	background-image: url(https://goo.gl/n4v3fd);
 	background-size: 100%;
     background-repeat: no-repeat;
 	padding-top:200px;
 	padding-bottom:200px;
 	margin-bottom: 20px;
+}
+
+.bg1 {
+	background-image: url(https://goo.gl/n4v3fd);
+}
+
+.bg2 {
+	background-image: url(https://goo.gl/pnvjve);
 }
 
 .container {
