@@ -3,7 +3,7 @@
 }
 
 h1 {
-	font-family: "Arial", Sans-serif;
+	font-family: 'Arial', Sans-serif;
 	text-transform: Uppercase;
 	font-size: 72px;
 	color: white;
@@ -12,7 +12,8 @@ h1 {
 
 p {
 	color: white;
-	line-height: 25px;
+	line-height: 30px;
+	font-family: 'Roboto Slab', Sans-serif;
 }
 
 body {
@@ -42,6 +43,8 @@ li {
 
 a {
 	color: white;
+	text-decoration: none;
+	font-family: 'Roboto Slab', Sans-serif;
 }
 
 a:hover {
