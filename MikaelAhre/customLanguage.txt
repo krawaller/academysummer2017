@@ -1,0 +1,16 @@
+	Syntax of FailLang
+
+	:Object:		 // Declaration of objects starts and ends with :
+
+	[type]		// types are contained within []
+
+	[type;;value]	// values of types 
+
+	<children>	// Children of the parent object are contained within <>. 
+
+      				Ex :Object[type;;value]<:objectChild[type;;value]>:
+	
+	, 		// Separates multiple children
+	
+				Ex : Object[type;;value]<:objectChild[type;;value], :objectChild[type;;value]>:
+  			

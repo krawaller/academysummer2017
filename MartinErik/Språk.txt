@@ -1,0 +1,22 @@
+Familj				
+  Gunnar(ålder<78>,kön<Man>)			        
+    Åsa(ålder<48>,kön<Kvinna>)				        
+      Rutger(ålder<20>,kön<Man>)
+    Birger(ålder<35>,kön<Man>)
+    Sara(ålder<33>,kön<Kvinna>)
+      Calle(ålder<2>,kön<Man>)
+ 
+
+
+
+
+
+
+
+
+
+Familj
+  Namn(ålder<ex>,kön<ex>) 
+    Namn(ålder<ex>,kön<ex>)
+     
+   
