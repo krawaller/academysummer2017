@@ -1,0 +1,45 @@
+body {
+  background: linear-gradient(to top, #d2ff4d 5%, #e0e0d1 50%) fixed;
+}
+
+#wrapper {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  opacity: 0.9;
+}
+
+ol {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+p:first-letter {
+  color: #3578e3;
+  font-family: Georgia;
+  font-size: 55px;
+  line-height: 55px;
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+#rubrik {
+  transition: transform 1s ease;
+  color: #3578e3;
+}
+
+div:hover > #rubrik {
+  transform:rotate(-45deg);
+}
+a:link {
+  color:black;
+}
+a:visited {
+  color:#3578e3;
+}
