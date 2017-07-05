@@ -24,6 +24,12 @@ body {
 	background-color: black;
 }
 
+.container {
+	width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .header {
 	background-size: 100%;
     background-repeat: no-repeat;
@@ -36,12 +42,6 @@ body {
 
 .bg2 {
 	background-image: url(https://goo.gl/pnvjve);
-}
-
-.container {
-	width: 100%;
-    margin: 0 auto;
-    text-align: center;
 }
 
 li {
@@ -60,10 +60,10 @@ a {
 }
 
 a:hover {
-	color: rgb(110,110,110);
+	/*color: rgb(110,110,110);*/
 	font-size: 26px;
 	text-shadow: 2px 2px 25px white; 
-	transition: color 1s ease, font-size 1s ease, text-shadow 1s ease;
+	transition: /*color 1s ease, */font-size 1s ease, text-shadow 1s ease;
 
 }
 
