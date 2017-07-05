@@ -1,0 +1,29 @@
+body{
+  background-color: black;
+}
+p{
+  color: white;
+  font-size: 16;
+}
+img{
+  height: 400px;
+  display: block;
+}
+#block{
+  margin: 0 auto;
+  text-align: center;
+}
+a{
+  display: inline-block;
+}
+#fromleft{
+  -webkit-animation: 3s linear move_left;
+}
+#fromright{
+  -webkit-animation: 3s linear move_right;
+}
+
+@-webkit-keyframes move_left {from { margin-left: -150%; } to { margin-left: 0%; }  }
+        @keyframes  move_left{ from { margin-left: -150%; } to { margin-left: 0%; }  }
+@-webkit-keyframes move_right {from { margin-right: -150%; } to { margin-right: 0%; }  }
+        @keyframes  move_right{ from { margin-right: -150%; } to { margin-right: 0%; }  }
