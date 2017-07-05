@@ -1,9 +1,12 @@
 body{
   background-color: black;
 }
+h1{
+  color:white;
+}
 p{
   color: white;
-  font-size: 16;
+  font-size: x-large;
 }
 img{
   height: 400px;
@@ -14,6 +17,7 @@ img{
   text-align: center;
 }
 a{
+  color: white;
   display: inline-block;
 }
 #fromleft{
