@@ -1,0 +1,55 @@
+h1{
+  text-align: center;
+  font-size: 60px;
+}
+
+img {
+  height:400px;
+
+}
+.firstcharacter {
+  color: #100
+  float:left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-left: 3px;
+
+}
+#paladin{
+  padding-left: 390px;
+
+}
+
+.fire:hover{
+  background-image: url(fire.gif);
+  background-repeat: no-repeat;
+  display: inline-block;
+  background-size: cover;
+  background-position: center center;
+}
+
+#mainbox{
+width: 60%;
+border: 2px solid gray;
+padding: 10px;
+
+}
+
+html{
+  background-image:url(background.jpg);
+  padding: 130px;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: contain;
+  background-color: #16171c;
+}
+.goldtext {
+    color:#c3a343;
+    -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(transparent, transparent),
+    url(goldtext.jpg) repeat;
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+}
