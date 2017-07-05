@@ -12,6 +12,13 @@ img{
      color: white;
 }
 
+.index{
+  background-image: url("img/4191394-cool-3d-wallpapers.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+   color: white;
+}
+
 .page2{
   background-image: url("img/Sunrise.jpg");
   background-repeat: no-repeat;
@@ -50,3 +57,22 @@ li span{
 
 
 }
+
+ul{
+  padding:0;
+}
+li{
+  padding:0.15em 0 0.5em 1.5em;
+  margin-bottom:0.2em;
+  text-indent:0.4em;
+  font-weight:bold;
+  list-style:none;
+  background-repeat:no-repeat;
+  background-image:url(http://icons.iconarchive.com/icons/icons8/windows-8/512/Astrology-Year-Of-Pig-icon.png);
+  background-size: 25px;
+}
+
+li:hover {
+  transform: scale(1.05, 1.05);
+  transition: 1s ease;
+    }
