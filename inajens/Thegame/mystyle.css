@@ -27,8 +27,6 @@ body {
 .header {
 	background-size: 100%;
     background-repeat: no-repeat;
-    padding-top:200px;
-	padding-bottom:200px;
 	margin-bottom: 20px;
 }
 
@@ -80,17 +78,18 @@ a:hover {
 
 @keyframes headerheight {
   0% {
-  	padding-top:200px;
-	padding-bottom:200px
+  	padding-top:500px;
+	padding-bottom:500px
   }
   100% {
-  	padding-top:0;
-	padding-bottom:0;
+  	padding-top:200px;
+	padding-bottom:200px;
   }
 }
 
 #startpageheader > h1 {
   animation: headerheight 3s, fadein 3s;
+  animation-fill-mode: forwards;
 }
 
 #standardpageheader > h1 {
