@@ -1,8 +1,41 @@
-body {
+div, .header {
   margin-left: 30%;
 }
 
+.FirstPic:hover {
+  transition: 6s;
+  transform: rotate(360deg);
+}
+
+p:hover {
+  transition: 5s;
+  transform:translate3d(200px, 200px, 30px);
+
+}
+
+ul:hover {
+  transition: 3s;
+  transform:skewX(30deg);
+
+}
+
+.StartGame {
+  margin-left: 40%;
+}
+
+.MainPic:hover {
+  transition: 2s;
+  transform:rotateX(180deg);
+}
+
+.header:hover {
+  transition: 10s;
+  transform:skewX(180deg);
+}
+
+
 a {
+
   font-size: 24px;
   text-decoration: none;
   color: black;
