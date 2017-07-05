@@ -58,6 +58,11 @@ li span{
 
 }
 
+a:link, a:visited{
+  color: white;
+  text-decoration: none;
+}
+
 ul{
   padding:0;
 }
