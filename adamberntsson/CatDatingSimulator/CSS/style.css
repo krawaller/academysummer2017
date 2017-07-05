@@ -33,6 +33,12 @@ ul:hover {
   transform:skewX(180deg);
 }
 
+.FirstWrapper {
+  animation: colorchange 10s;
+  -webkit-animation: colorchange 0.5s;
+  animation-iteration-count:infinite;
+
+}
 
 a {
 
