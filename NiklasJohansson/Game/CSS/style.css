@@ -1,19 +1,53 @@
+
+header:hover h1 {
+  visibility: hidden;
+}
+
+header:hover:before {
+  content: "You moron! :D";
+  display: block;
+  position: absolute;
+}
+
+h1 {
+  font-style: italiC;
+}
+
 img {
   height:300px;
 
 }
+img:hover {
+  transform: skewY(360deg);
+  transition: transform 3s ease;
+}
+
+
 #wrapper{
-  background-color: red;
-  padding-left: 20px;
+  background-color: purple;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
-
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
-h1 {
-  font-style: italic;
+
+ol{
+  list-style-position: inside;
+  text-align: center;
 }
 
-ol {
+ol a {
+    color: black;
+}
+ol li:hover {
+  text-transform: capitalize;
+  color: black;
+}
 
+ol strong:hover {
+  color: orange;
 }
