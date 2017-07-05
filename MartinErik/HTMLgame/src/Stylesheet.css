@@ -1,0 +1,45 @@
+li{
+    color: #ff40ba;
+}
+li > a{
+    color: #dc7e73;
+
+}
+html{
+    background-color: #240808;
+    color: #dc7e73;
+    margin-left: 200px;
+    text-align: center
+
+}
+h1{
+    color: #dc7e73;
+}
+
+header{
+}
+li.fake:hover{
+
+    transition: 1s ease;transform: scale(1,2)  ;
+
+}
+@keyframes Snurr {
+    0% {transition: ease ;transform: rotate(0deg);
+    }
+    25%{transition: ease ;transform: rotate(90deg);
+    }
+    50%{transition: ease ;transform: rotate(180deg)
+    }
+    75%{transition: ease ;transform: rotate(360deg)
+    }
+}
+img {
+    width: 540px;
+    height:auto;
+}
+Snurra:hover{
+    animation-name: Snurr;
+    animation-duration: 2s;
+
+
+}
