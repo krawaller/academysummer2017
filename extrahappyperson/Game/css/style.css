@@ -1,0 +1,37 @@
+h1 {
+	font-family: 'Passion One', cursive;
+	padding-left: 25%;
+}
+
+h3{
+	font-family: 'Passion One', cursive;
+	padding-left: 37%;
+}
+
+h4 {
+	font-family: 'Passion One', cursive;
+	padding-left: 37%;
+}
+
+ p{
+	font-family: 'Merriweather', serif;
+	padding-left: 25%;
+}
+
+ul {
+	font-family: 'Merriweather', serif;
+	padding-left: 26%;
+}
+
+a:hover {
+	background-color: gold; 
+	
+
+}
+
+img{
+	width: 300px; 
+	height: 400px;
+	position: absolute;
+
+}

@@ -1,0 +1,21 @@
+h3{
+	font-family: 'Passion One', cursive;
+	padding-left: 37%;
+}
+h2 {
+	font-family: 'Passion One', cursive;
+	padding-left: 39%;
+}
+
+img:hover {
+	transform: rotate(180deg);
+}
+img {
+	transition: transform 1s ease;
+}
+
+.container{
+padding-left: 300px;
+}
+
+
