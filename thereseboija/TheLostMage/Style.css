@@ -9,20 +9,42 @@ body {
   padding-left: 150px;
   padding-right: 150px;
 
+
 }
 h1 {
   font-family: "Century Gothic", Times, serif;
-	font-size: 2em;
+	font-size: 3em;
 	color: Purple;
+	animation: bounce 1s infinite alternate;
+	animation: bounce 1s infinite alternate;
+ }
+ @keyframes bounce {
+	 from {
+		 transform: translateY(0px);
+	 }
+	 to {
+		 transform: translateY(-15px);
+	 }
+ }
+ @keyframes bounce {
+	 from {
+		 transform: translateY(0px);
+	 }
+	 to {
+		 transform: translateY(-15px);
+	 }
 }
-h2 {
-  font-family: "Century Gothic", Times, serif;
-	font-size: 1.5em;
-  color: Purple;
+}
+
 }
 a {
     color: navy;
 }
+a:hover{
+	color: Green;
+}
+	}
+
 strong {
 	font-style: italic;
 	text-transform: uppercase;
@@ -31,8 +53,49 @@ p {
   font-family: "Book Antiqua", Times, serif;
 	line-height: 1.5;
 	text-align: left;
+
 }
 img    {
   height: 90%;
   width: 90%;
+animation: pulsate 3s ease-out;
+animation-iteration-count: infinite;
+opacity: 0.5;
 }
+@keyframes pulsate {
+0% {
+		opacity: 0.5;
+}
+50% {
+		opacity: 1.0;
+}
+100% {
+		opacity: 0.5;
+}
+}
+h2 {
+  font-family: "Century Gothic", Times, serif;
+	font-size: 2em;
+  color: Purple;
+	animation: spin 4s infinite linear;
+}
+@keyframes spin {
+	0%  {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);}
+}
+h3 {
+  font-family: "Century Gothic", Times, serif;
+	font-size: 2em;
+  color: Purple;
+	animation: blink-animation 1s steps(5, start) infinite;
+	animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
+}
+@keyframes blink-animation {
+	to {
+		visibility: hidden;
+	}
