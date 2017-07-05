@@ -33,6 +33,9 @@ img{
 }
 
 ul{
+    animation-name: rollaround;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
     border-style:solid;
     background-color: crimson;
     font-family: "sans-serif";
