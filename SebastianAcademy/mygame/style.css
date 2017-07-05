@@ -3,10 +3,12 @@ body{
 }
 h1{
   color:white;
+  text-shadow: 1px 1px 8px yellow; 
 }
 p{
   color: white;
   font-size: x-large;
+  text-shadow: 1px 1px 8px yellow;
 }
 img{
   height: 400px;
