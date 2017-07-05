@@ -1,0 +1,15 @@
+img { 
+height: 250px;
+width: 300px;
+padding-right: 50%;
+}
+
+body {
+    background-image:url(img/Sverige.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+
+
+
