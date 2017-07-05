@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  overflow: hidden;
+}
+
+header, footer {
+  background-color: #282828;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+
+h1, h2 {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+h2, p, li {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  height: 100px;
+}
+
+header h1 {
+  padding: 2%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 300;
+  padding: 2%;
+}
+
+h2 {
+  padding: 10px 10px 10px 0px;
+  margin: 10px 10px 10px 0px;
+  color: white;
+}
+
+.maincontent p {
+  color: white;
+  margin: 10px 10px 10px 0px;
+}
+
+.maincontent {
+  background-color: black;
+  opacity: 0.8;
+  display: none;
+
+  padding: 5px 10% 15px 10%;
+  position: fixed;
+  top: 60%;
+  left: 35%;
+  z-index: 20;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li a:hover {
+  color: gray;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+#page2 {
+  background-repeat: repeat-x;
+  background-image: url(creepypope.jpg);
+  background-color: black;
+  background-size: 500px;
+}
+
+#page3 {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  background-size: 1800px;
+}
+
+#page4 {
+  background-image: url(axeimage.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  background-size: 1800px;
+}
+
+#page5 {
+  background-image: url(fallen.jpg);
+  background-repeat: no-repeat;
+  background-color: black;
+  width: 100%;
+  background-size: 1800px;
+}
+
+#index {
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.container {
+  height: 700px;
+}
+
+.hiddenimage {
+  background-image: url(creepygirl2.jpg);
+  background-repeat: no-repeat;
+  display: none;
+  position: relative;
+
+  height: 500px;
+  padding-left: 20%;
+  margin: 20px 20% 0px 30%;
+}
+
+/*p:first-child:first-letter {
+  color: #c10f27;
+  float: left;
+  font-family: Georgia;
+  font-size: 45px;
+  line-height: 30px;
+  padding-top: 5px;
+  padding-right: 4px;
+  padding-left: 2px;
+}
+*/
