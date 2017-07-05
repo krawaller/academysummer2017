@@ -5,7 +5,7 @@ img {
   border-color: white;
 }
 h2 {
-  font-family: Verdana;
+      font-family: Verdana;
   padding-left: 150px;
   padding-right: 150px;
 }
@@ -13,6 +13,7 @@ h2 {
 body {
   background:  url("http://pos.jungheemun.com/images/night_sky_animated_by_toxtheerisian-d4gh9ct.gif") no-repeat center center fixed;
   background-size: cover;
+  text-align: center;
 }
 html {
 }
@@ -25,6 +26,7 @@ h1 {
   text-align: center;
   text-decoration: none;
   display: inline-block;
+  border-radius: 10px;
 }
 h2 {
   color: white
@@ -51,6 +53,7 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
   font-family: Verdana;
+  border-radius: 10px;
 }
 
 a:hover, a:active {
@@ -87,7 +90,20 @@ a:hover, a:active {
     opacity:1;
   }
 }
+#bildhover {
+  transition: transform .5s ease, background-color 1s ease;
+}
 #bildhover:hover {
   transform: scale(2.0);
-  transition: transform .5s ease;
+  z-index: 2;
+}
+.shell {
+  height: 100px;
+  background-color: #8799db;
+  display: flex;
+  justify-content: center;
+}
+.piece {
+  background-color: #efef8f;
+  width: 150px;
 }
