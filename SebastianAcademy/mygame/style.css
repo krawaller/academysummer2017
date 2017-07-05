@@ -3,7 +3,7 @@ body{
 }
 h1{
   color:white;
-  text-shadow: 1px 1px 8px yellow; 
+  text-shadow: 1px 1px 8px yellow;
 }
 p{
   color: white;
@@ -16,20 +16,22 @@ img{
 }
 #block{
   margin: 0 auto;
+  overflow: hidden;
   text-align: center;
 }
 a{
   color: white;
   display: inline-block;
+  padding-top: 300px;
 }
 #fromleft{
-  -webkit-animation: 3s linear move_left;
+  animation: 3s ease move_left;
+  margin-right: 10px;
 }
 #fromright{
-  -webkit-animation: 3s linear move_right;
+  animation: 3s ease move_right;
+  margin-left: 10px;
 }
 
-@-webkit-keyframes move_left {from { margin-left: -150%; } to { margin-left: 0%; }  }
-        @keyframes  move_left{ from { margin-left: -150%; } to { margin-left: 0%; }  }
-@-webkit-keyframes move_right {from { margin-right: -150%; } to { margin-right: 0%; }  }
-        @keyframes  move_right{ from { margin-right: -150%; } to { margin-right: 0%; }  }
+        @keyframes  move_left{ from { transform: translateX(-500px); } to { transform: translateX(0); }  }
+        @keyframes  move_right{ from { transform: translate(250px); } to { transform: translateX(0); }  }
