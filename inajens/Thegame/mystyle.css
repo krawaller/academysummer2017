@@ -94,4 +94,6 @@ a:hover {
 
 #standardpageheader > h1 {
    animation: fadein 3s;
+   padding-top: 200px;
+   padding-bottom: 200px;
 }
