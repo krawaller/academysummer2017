@@ -1,0 +1,24 @@
+Beskrivning av format
+
+- Objekt definieras genom att de startar med //
+- Huvudobjektet måste stängas med // efter sista barnet/attributet
+- Attribut och children skrivs på ny rad med indentering
+- Attribut och children behöver inte stängas, radbyte signalerar nytt objekt eller attribut.
+- Attribut definieras med objektnamn följt av ".", vilket signalerar "nu följer attribut", för att lägga till fler attribut används "|" efter värde.
+- värde sätts med **
+- Attribut får inte sättas direkt i ett objekt, objektet måste skrivas ut först. Attribut får först följa på nästa rad med "." och "|".
+
+
+//mormor
+	mormor.namn**Berit|pensionär
+	//mamma
+		mamma.namn**Ansi|ålder**64|yrke**silversmed
+			//dotter
+			dotter.namn**Ina|ålder**27
+			//son
+			son.namn**Mårten|ålder**29
+	//moster
+		moster.namn**Beat
+			//son
+			son.namn**Aril|ålder**29
+//
