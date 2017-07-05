@@ -1,0 +1,50 @@
+html{
+  background: linear-gradient(to top, #dad299 0%, #b0dab9 80%);
+  width: 100%;
+  height: 100%;
+}
+.header{
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  margin: 0 auto;
+}
+
+li{
+  text-align: center;
+}
+
+
+@keyframes FadeIn {
+  0% {
+  opacity:0;
+}
+45% {
+opacity:1;
+}
+55% {
+opacity:1;
+}
+100% {
+opacity:1;
+}
+}
+
+#attack {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1000;
+  height: 400px;
+  width: 600px;
+
+animation-name: FadeIn;
+animation-timing-function: ease-in;
+animation-iteration-count: once;
+animation-duration: 0.5s;
+animation-direction: alternate;
+}
