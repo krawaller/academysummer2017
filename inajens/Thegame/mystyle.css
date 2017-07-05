@@ -52,8 +52,10 @@ a {
 	color: white;
 	text-decoration: none;
 	font-family: 'Roboto Slab', Sans-serif;
+	transition: color 1s ease;
 }
 
 a:hover {
-	color: grey;
+	color: rgb(110,110,110);
+	transition: color 1s ease;
 }
