@@ -1,9 +1,8 @@
 img { 
 height: 250px;
 width: 300px;
--webkit-animation: 1s linear move_left;
+animation: 1s linear move_left;
 }         
-@-webkit-keyframes move_left { from { margin-left: -150%; } to { margin-left: 0%; }  }
         @keyframes move_left { from { margin-left: -150%; } to { margin-left: 0%; }  }
 
 html {
@@ -12,7 +11,6 @@ html {
 }
 
 #wrapper {
-    font: italic;
     color: yellow;
     text-align: center;
 }
@@ -32,4 +30,3 @@ p:nth-child(2):hover {
         -ms-transform: scale(1.2);
         transform: scale(1.2);
 }
-
