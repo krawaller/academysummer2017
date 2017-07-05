@@ -1,18 +1,40 @@
+
+
 #wrapper{
     text-align: center;
-    background: #000;
-
+    background: azure;
+    outline-color: black;
 }
 header h1{
-    background-color: aqua;
-    color: white;
+
+    border-style: dashed;
+    border-color: black;
     font-family: "Comic Sans MS";
     display: inline-block;
 
 }
 
+main p{
+    font-family: fantasy;
+}
+@keyframes rollaround {
+    from {
+        transform: rotate(0deg);
+    } to {
+          transform: rotate(360deg);
+      }
+    
+}
+img{
+
+    animation-name: rollaround;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+}
+
 ul{
-    background-color: yellow;
+    border-style:solid;
+    background-color: crimson;
     font-family: "sans-serif";
 
     display: inline-block;
