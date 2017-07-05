@@ -1,0 +1,77 @@
+header{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 35px;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+}
+
+main{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+body{
+  font-weight: 900;
+  background-image: url(mysteriouswood.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+footer{
+  text-align: center;
+  font-family: Verdana;
+  font-size: 25px;
+}
+
+img:hover {
+  height: 300px;
+  width: 300px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  image-orientation: right;
+  transition: height 1s ease, width 1s ease;
+
+}
+
+.second:hover {
+  width: 300px;
+  height: auto;
+}
+
+.second {
+  width: 250px;
+  height: auto;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a {
+  color: #000000;
+  transition: color 1s ease;
+}
+
+choice1:hover {
+  font-size: 30px;
+}
+
+choice1 {
+  transition: font-size 1s ease;
+}
+
+choice2:hover {
+  font-size: 30px;
+}
+
+choice2 {
+  transition: font-size 1s ease;
+}
