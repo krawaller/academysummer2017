@@ -1,15 +1,35 @@
 img { 
 height: 250px;
 width: 300px;
-padding-right: 50%;
+-webkit-animation: 1s linear move_left;
+}         
+@-webkit-keyframes move_left { from { margin-left: -150%; } to { margin-left: 0%; }  }
+        @keyframes move_left { from { margin-left: -150%; } to { margin-left: 0%; }  }
+
+html {
+    background-color: blue;
+    background-size: 100%
 }
 
-body {
-    background-image:url(img/Sverige.jpg);
-    background-repeat: no-repeat;
-    background-size:100%;
+#wrapper {
+    font: italic;
+    color: yellow;
+    text-align: center;
 }
 
+a:link, a:visited {
+    color: yellow;
+}
 
+p:nth-child(3):hover {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: transform 1s ease;
+}
 
+p:nth-child(2):hover {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+}
 
