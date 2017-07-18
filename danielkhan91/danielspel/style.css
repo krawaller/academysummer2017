@@ -6,8 +6,14 @@ animation: 1s linear move_left;
         @keyframes move_left { from { margin-left: -150%; } to { margin-left: 0%; }  }
 
 html {
-    background-color: blue;
+    /*background-color: blue;*/
     background-size: 100%
+}
+
+h1 {color: white; text-shadow: black 0.1em 0.1em 0.2em}
+
+body{
+    background-color: blue;
 }
 
 #wrapper {
@@ -15,9 +21,12 @@ html {
     text-align: center;
 }
 
+
 a:link, a:visited {
     color: yellow;
 }
+
+p {color: white; text-shadow: black 0.1em 0.1em 0.2em}
 
 p:nth-child(3):hover {
     -webkit-transform: rotate(180deg);
