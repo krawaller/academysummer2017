@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+  background-clip:padding-box;
+  pading: 200px;
+}
+h1{
+  color:white;
+  text-shadow: 1px 1px 8px yellow;
+}
+p{
+  color: white;
+  font-size: x-large;
+  text-shadow: 1px 1px 8px yellow;
+}
+img{
+  height: 400px;
+  display: block;
+}
+#block{
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+a{
+  color: white;
+  display: inline-block;
+}
+#fromleft{
+  animation: 3s ease move_left;
+  margin-right: 10px;
+  padding-top: 200px;
+}
+#fromright{
+  animation: 3s ease move_right;
+  margin-left: 10px;
+}
+
+        @keyframes  move_left{ from { transform: translateX(-1300px); } to { transform: translateX(0); }  }
+        @keyframes  move_right{ from { transform: translate(2000px); } to { transform: translateX(0); }  }
