@@ -1,5 +1,7 @@
 body{
   background-color: black;
+  background-clip:padding-box;
+  pading: 200px;
 }
 h1{
   color:white;
@@ -22,16 +24,16 @@ img{
 a{
   color: white;
   display: inline-block;
-  padding-top: 300px;
 }
 #fromleft{
   animation: 3s ease move_left;
   margin-right: 10px;
+  padding-top: 200px;
 }
 #fromright{
   animation: 3s ease move_right;
   margin-left: 10px;
 }
 
-        @keyframes  move_left{ from { transform: translateX(-500px); } to { transform: translateX(0); }  }
-        @keyframes  move_right{ from { transform: translate(250px); } to { transform: translateX(0); }  }
+        @keyframes  move_left{ from { transform: translateX(-1300px); } to { transform: translateX(0); }  }
+        @keyframes  move_right{ from { transform: translate(2000px); } to { transform: translateX(0); }  }
