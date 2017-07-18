@@ -14,6 +14,7 @@ body {
   background:  url("http://pos.jungheemun.com/images/night_sky_animated_by_toxtheerisian-d4gh9ct.gif") no-repeat center center fixed;
   background-size: cover;
   text-align: center;
+  color: white;
 }
 html {
 }
@@ -35,15 +36,15 @@ h3 {
   font-family: Verdana;
   color: white;
   font-size: 15px;
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 p {
   color: white;
   font-family: Verdana;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 a:link, a:visited {
   background-color: ForestGreen;
@@ -71,15 +72,16 @@ a:hover, a:active {
   opacity: 0;
   text-align: center;
   animation: fadein 3s;
-  animation-fill-mode: forwards;
-  animation-delay: 2s;
+  animation-fill-mode: forwards;  
+  animation-delay: 1s;
 }
 .test3 {
   opacity: 0;
   text-align: center;
   animation: fadein 3s;
   animation-fill-mode: forwards;
-  animation-delay: 4s;
+  animation-delay: 2.5s;
+
 }
 
 @keyframes fadein {
