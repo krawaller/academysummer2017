@@ -12,7 +12,7 @@ p{
   font-size: x-large;
   text-shadow: 1px 1px 8px yellow;
 }
-img{
+#buttonpics{
   height: 400px;
   display: block;
 }
@@ -24,11 +24,16 @@ img{
 a{
   color: white;
   display: inline-block;
+  font-size: 24px;
+  text-shadow: 1px 1px 8px yellow;
+}
+.row{
+  padding-top: 150px;
 }
 #fromleft{
   animation: 3s ease move_left;
   margin-right: 10px;
-  padding-top: 200px;
+  /*padding-top: 200px;*/
 }
 #fromright{
   animation: 3s ease move_right;
