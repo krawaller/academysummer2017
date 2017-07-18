@@ -1,25 +1,40 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link rel="stylesheet" type="text/css" href="webGame.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
   </head>
-  <body class="page1">
-    <h1>Death by bazooka</h1>
-    <p><span>
+
+<body class="page1">
+    <h1 class="text-center">Death by bazooka</h1>
+    <p class="text-center"><span>
       A story about a group a friends that took over the world with bazookas and horses.
     </span></p>
-    <img src="https://media.giphy.com/media/Z68s601kqPhNm/giphy.gif">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <img id="batmanpic" src="https://media.giphy.com/media/Z68s601kqPhNm/giphy.gif">
+      </div>
+      <div class="col-lg-6">
+        <img id="explosionpic" src="img/explosion.jpg" alt="Mountain View">
+      </div>
+    </div>
+  </div>
 
-    <main>
-      <h2>Unfortunatly you blew your self up with a bazooka</h2>
-        <p><span>
+      <main>
+      <h2 class="text-center"> <span>Unfortunatly you blew your self up with a bazooka</span></h2>
+        <p class="text-center"><span>
           Remember, violence is not the solution. It its the thought that counts. Ultimately we all will become shadows and dust.
         </span></p>
 
+  <div class="button">
+      <a href="index.html"><button type="button" class="btn btn-danger btn-lg">Live to fight another death</button></a>
+  </div>
 
-      <img src="img/explosion.jpg" alt="Mountain View">
-
-
-    </main>
+      </main>
+    </div>
   </body>
 </html>
