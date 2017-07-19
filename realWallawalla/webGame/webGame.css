@@ -41,15 +41,14 @@ p span {
   opacity: 0.8;
   color: white;
 }
-h2 span {
-  background-color: black;
-}
 li span {
   background-color: black;
   font-size: 20px;
   opacity: 0.8;
   color: white;
 }
+
+
 a:link,
 a:visited {
   color: white;
