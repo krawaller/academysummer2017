@@ -21,6 +21,7 @@ var n = "No";
     else{
         tries++;
         alert("try again" + " try number: " + tries); 
+       
         if(answer>randomNumber){
             alert("go lower")
         }
@@ -47,4 +48,17 @@ var n = "No";
 
     
 
+// Davids exercise 
 
+var david = {
+    age:32, 
+    firstname: "David", 
+    lastname: "Krawwler"
+}
+
+david.occupation = "Teacher"; 
+
+
+for(var key: david) {
+    console.log("key is " + key + " and value is " + david[key]);
+}
