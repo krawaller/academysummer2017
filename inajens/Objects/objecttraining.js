@@ -73,10 +73,18 @@ var totalCost = 0;
   return totalCost;
 }
 
-console.log("The total price is " + costOfRecipe(wienerbreads,ica))
+//console.log("The total price is " + costOfRecipe(wienerbreads,ica))
 
-/*
 function fincCheapestStore (recipe,allstores) {
-  costOfRecipe(recipe,ica)
-  costOfRecipe(recipe,coop)
-}*/
+  if(costOfRecipe(recipe,allstores.coop) > costOfRecipe(recipe,allstores.ica)) {
+    console.log("Ica is the cheaper option");
+  }
+  else if (costOfRecipe(recipe,allstores.coop) < costOfRecipe(recipe,allstores.ica)) {
+    console.log("Coop is the cheaper option");
+  }
+  else {
+    console.log("The price is the same, shop wherever you want!");
+  }
+}
+
+fincCheapestStore(supersoup,allstores)
