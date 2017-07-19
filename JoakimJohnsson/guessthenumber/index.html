@@ -14,31 +14,31 @@
 
             var numberOfTries = 0;
             var yourName = prompt("Enter your name!");
+            var game = true;
+            var inPlay = true;
 
-            while (true) {
+            while (game) {
 
                 var randomNumber = Math.floor(Math.random()*10)+1;
 //                var randomNumber = 8;
-//                var yourName = "Joakim";
 
-                if (numberOfTries >= 3) {
-                    alert("YOU LOST! Play Again!");
-                    numberOfTries = 0;
-                }
+					if (numberOfTries >= 3) {
+						alert("YOU LOST! Play Again!");
+						numberOfTries = 0;
+					}
 
-                var guess = parseInt(prompt("Hello " + yourName +  ". Choose a number between 1 & 10!"));
+					var guess = parseInt(prompt("Hello " + yourName +  ". Choose a number between 1 & 10!"));
 
-                if (isNaN(guess) || guess < 1 || guess > 10) {
-                    alert("You didn't enter a number between 1 & 10.. Gör om, gör rätt!");
-                    location.reload();
-                } else if (guess !== randomNumber) {
-                    alert("WRONG! You have " + (2-numberOfTries) + " guesses left.");
-                    numberOfTries++;
-                }
-                else {
-                    alert("Correct! Play Again.");
-                    numberOfTries = 0;
-                }
+					if (guess === randomNumber) {
+						alert("Correct! Play Again.");
+						numberOfTries = 0;
+					} else if (isNaN(guess) || guess < 1 || guess > 10) {
+						alert("You didn't enter a number between 1 & 10. Do it again!");
+						location.reload();
+					} else if (guess !== randomNumber) {
+						alert("WRONG! You have " + (2-numberOfTries) + " guesses left.");
+						numberOfTries++;
+					}
             }
 
         </script>
