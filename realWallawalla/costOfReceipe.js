@@ -54,7 +54,7 @@ var totalCost = 0;
   }
 
   function findCheapestStore(recipe, shops) {
-    var cheapest = 1000000000000;
+    var cheapest = Number.MAX_VALUE;
     var name;
     for (var key in shops){
       if (costOfRecipie(recipe ,shops[key])<cheapest) {
