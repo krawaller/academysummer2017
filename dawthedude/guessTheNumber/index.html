@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="bootstrap.css" />
+  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>grismonGames</title>
+</head>
+
+<body bgcolor="#ff9d00">
+  <center>
+    <div>
+      <br/>
+      <p>Guess the number!   </p>
+      <input id="guess" placeholder="Enter your guess here" />
+      <button id="submit">
+        YOLO
+      </button>
+    </div>
+
+    <p id="toolow"> <strong>WRONG!</strong>  Your guess was too <strong>LOW.</strong> Guess again! </p>
+    <p id="toohigh"> <strong>WRONG!</strong>  Your guess was too <strong>HIGH.</strong> Guess again! </p>
+    <p id="correct"> <strong>CONGRATULATIONS!</strong>  Your guess was <strong>CORRECT!</strong> </p>
+    <p id="defeat"> <strong>DEFEAT!</strong>  Your very last guess was <strong>WRONG!</strong> </p>
+    <p id="startover"> <strong>CONGRATULATIONS!</strong>  Your guess was <strong>CORRECT!</strong> </p>
+    <button id="startoverbutton"> Press <strong>HERE</strong> to start over!</button>
+
+    <script src="jquery-3.2.1.js"></script>
+    <script src="code.js"></script>
+
+    <br />
+    <p id="count"> </p>
+    <script type="text/javascript">
+    var count = 3;
+    $("#submit").click(function() {
+      count-- ;
+      $("#counter").html("Your remaining guesses: "+count);
+    })
+    </script>
+    <div id="counter"></div>
+  </script>
+
+
+
+
+
+
+
+
+
+
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+  <p id="gris">
+    &copy; Grismon Studios
+  </p>
+</center>
+</body>
+</html>
