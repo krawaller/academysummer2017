@@ -1,44 +1,32 @@
-
-
-#wrapper{
-    text-align: center;
-    background: azure;
-    outline-color: black;
+#wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
 }
-header h1{
-
-    border-style: dashed;
-    border-color: black;
-    font-family: "Comic Sans MS";
-    display: inline-block;
-
+header h1 {
+  border-style: dashed;
+  border-color: black;
+  font-family: "Comic Sans MS";
 }
-
-main p{
-    font-family: fantasy;
+main p {
+  font-family: fantasy;
 }
 @keyframes rollaround {
-    from {
-        transform: rotate(0deg);
-    } to {
-          transform: rotate(360deg);
-      }
-    
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-img{
-
-    animation-name: rollaround;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
+img {
+  margin: 0 auto;
+  animation-name: rollaround;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
 }
-
-ul{
-    animation-name: rollaround;
-    -webkit-animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
-    border-style:solid;
-    background-color: crimson;
-    font-family: "sans-serif";
-
-    display: inline-block;
+ul {
+  border-style: solid;
+  background-color: crimson;
+  font-family: "sans-serif";
+  display: inline-block;
 }
