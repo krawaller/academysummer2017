@@ -1,0 +1,42 @@
+
+<script>
+var randomNumber = Math.floor(Math.random()*10)+1;
+var ok = true;
+var count = 0;
+
+while (ok) {
+
+  count = count + 1;
+  if (count<=3) {
+    var guess = parseInt(prompt("Enter your guess"));
+
+      if (guess < randomNumber) {
+        alert("WRONG! you geussed to low, guess agagingn");
+
+      }
+      else if (guess > randomNumber) {
+        alert("WRONG! you geussed to high, guess agagingn");
+
+      }
+      else {
+        alert("CORRECT, bye");
+        ok = false;
+      }
+
+    }
+    else {
+          alert("YOU LOSE WAHAHAH");
+          var guess = (prompt("Play again y/n?"));
+          if (guess === "y") {
+            count = 0;
+            }
+          else {
+            break;
+            ok =false;
+            }
+      }
+
+}
+
+
+</script>

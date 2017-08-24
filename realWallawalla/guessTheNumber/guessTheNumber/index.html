@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EpicNumberGame</title>
+</head>
+<body bgcolor="#ff9d00">
+  <center>
+    <div>
+      <p>Guess the number!    </p>
+      <input id="guess" placeholder="Enter your guess" />
+      <button id="submit">
+        Submit
+      </button>
+    </div>
+    <p id="toolow"> WRONG! Your guess was too <strong>LOW.</strong> Guess again! </p>
+    <p id="toohigh"> WRONG! Your guess was too <strong>HIGH.</strong> Guess again! </p>
+    <p id="correct"> CONGRATULATIONS! Your guess was <strong>CORRECT!</strong> </p>
+    <p id="defeat"> DEFEAT! Your LAST guess was <strong>WRONG!</strong> </p>
+    <p id="startover"> CONGRATULATIONS! Your guess was <strong>CORRECT!</strong> </p>
+    <button id="startoverbutton"> Press <strong>HERE</strong> to start over!</button>
+    <script src="jquery-3.2.1.js"></script>
+    <script src="code.js"></script>
+    <br />
+    <p id="count"> </p>
+
+    <script type="text/javascript">
+    var count = 3;
+
+    $("#submit").click(function() {
+      count-- ;
+      $("#counter").html("Your remaining guesses: "+count);
+    })
+
+    </script>
+
+    <div id="counter"></div>
+
+  </script>
+</center>
+</body>
+</html>
